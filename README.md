@@ -3,7 +3,9 @@
 A modern, responsive hotel booking interface that allows users to browse and filter hotels based on location, price, rating, and availability dates. Built using HTML, CSS, and JavaScript, this project focuses on delivering a seamless and user-friendly hotel search experience.
 
 🚀 Features
+
 🔍 Advanced Hotel Filtering
+
       Filter hotels by:
       Location
       Price range
