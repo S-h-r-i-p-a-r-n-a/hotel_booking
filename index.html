@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlueWave Hotel</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+   <!-- Navbar -->
+<nav class="navbar">
+    <div class="logo">BlueWave Hotel</div>
+  
+    <!-- Toggle Icon for Mobile -->
+    <div class="navbar-toggle" id="navbarToggle">&#9776;</div>
+  
+    <!-- Nav Links -->
+    <ul class="nav-links" id="navbarMenu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#rooms">Rooms</a></li>
+      <li class="dropdown">
+        <a href="#">Pages</a>
+        <ul class="dropdown-menu wide-dropdown">
+          <li><a href="#booking-section">My Booking</a></li>
+          <li><a href="#feedback">Customer Feedback</a></li>
+        </ul>
+      </li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+
+    <section id="home" class="home">
+        <div class="slider">
+          <img id="slider-image" src="imagesB HOME.jpeg" alt="Hotel Slider" />
+          <div class="slider-arrows">
+            <button id="prevBtn">&#10094;</button>
+            <button id="nextBtn">&#10095;</button>
+          </div>
+          <div class="home-buttons">
+            <button id="roomBtn">Our Room</button>
+            <button id="bookBtn">Book Room</button>
+          </div>
+        </div>
+      </section>
+      
+
+    <!-- About -->
+    <section id="about" class="about">
+        <h2>About Our Hotel</h2>
+        <div class="about-content">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Hotel Lobby" class="about-img">
+
+            <div class="about-text">
+                <p>
+                    🏨 Welcome to <strong>BlueWave Hotel</strong> – your perfect escape where comfort, elegance, and
+                    top-notch service come together. 🌊 Our modern, well-furnished rooms offer breathtaking views of the
+                    ocean or city skyline, equipped with high-speed Wi-Fi, smart TVs, plush bedding, and 24/7 room
+                    service to make your stay as relaxing as possible. Whether you're here for a business meeting 💼 or
+                    a weekend getaway 🌴, BlueWave provides everything you need to unwind in style and feel right at
+                    home.
+                </p>
+
+                <p>
+                    🍽️ Treat your taste buds to an unforgettable culinary journey at our multicuisine restaurant 🍛,
+                    sip handcrafted cocktails at the WaveBar 🍸, or enjoy a peaceful coffee break at the Seaside Café ☕.
+                    Rejuvenate your senses at our luxury spa 💆‍♀️, take a refreshing dip in our infinity pool 🏊‍♂️, or
+                    explore nearby attractions just minutes away – from sunny beaches 🏖️ to vibrant shopping spots 🛍️
+                    and cultural sites 🎭. At BlueWave Hotel, every moment is designed to create lasting memories. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-boxes">
+            <div class="service">Room Service</div>
+            <div class="service">Spa & Wellness</div>
+            <div class="service">Free Wi-Fi</div>
+            <div class="service">24/7 Customer Support</div>
+        </div>
+    </section>
+
+    <!-- Rooms -->
+    <section id="rooms" class="rooms">
+        <h2>Room Types</h2>
+        <div class="room-cards">
+            <div class="room-card">
+                <h3>Deluxe Room</h3>
+                <p>Spacious and luxurious room with sea view.</p>
+                <button>View Details</button>
+                <button>Book Now</button>
+            </div>
+            <div class="room-card">
+                <h3>Suite</h3>
+                <p>Premium suite with private balcony and jacuzzi.</p>
+                <button>View Details</button>
+                <button>Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking and Feedback Combined -->
+    <section id="booking-section" class="booking">
+        <h2>My Booking & Customer Feedback</h2>
+        <div class="booking-feedback-container">
+            <div class="my-booking">
+                <h3>My Booking</h3>
+                <p>Your booked room details will appear here after confirmation.</p>
+            </div>
+            <div class="customer-feedback">
+                <h3>Customer Feedback</h3>
+                <div class="feedback-entry">
+                    <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="Client" />
+                    <div>
+                        <p>"Amazing experience and super clean rooms!"</p>
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                </div>
+                <div class="feedback-entry">
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="Client" />
+                    <div>
+                        <p>"Best hotel in town. Will visit again!"</p>
+                        <span>⭐⭐⭐⭐⭐</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Email Address" />
+            <textarea placeholder="Your Message"></textarea>
+            <button>Send Message</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 BlueWave Hotel. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
