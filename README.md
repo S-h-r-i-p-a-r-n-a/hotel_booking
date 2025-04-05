@@ -4,15 +4,11 @@ A modern, responsive hotel booking interface that allows users to browse and fil
 
 🚀 Features
 🔍 Advanced Hotel Filtering
-Filter hotels by:
-
-Location
-
-Price range
-
-Customer rating
-
-Availability dates
+      Filter hotels by:
+      Location
+      Price range
+      Customer rating
+      Availability dates
 
 📅 Date-Based Availability Search
 Select a specific date to view only the hotels available on that day.
@@ -29,7 +25,8 @@ Designed with pure CSS for a clean and mobile-friendly layout.
 ⚡ Lightweight & Fast
 Frontend-only project — dynamic filtering and modal logic are handled through JavaScript.
 
-👥 User Benefits
+👥 User Benefits-
+
 🧭 Simple Hotel Search: Easily narrow down hotel options with flexible filters.
 
 💡 Quick Decision Making: Instantly view key details to choose the right stay.
