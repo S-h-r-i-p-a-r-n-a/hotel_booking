@@ -191,13 +191,19 @@
   @media (max-width: 768px) {
     .navbar {
       flex-wrap: wrap;
-      position: relative;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 999;
     }
   
     .navbar-toggle {
       display: block;
       font-size: 1.8rem;
       color: white;
+      background: none;
+      border: none;
       cursor: pointer;
       margin-left: auto;
     }
@@ -210,7 +216,6 @@
       position: absolute;
       top: 100%;
       left: 0;
-      z-index: 99;
     }
   
     .nav-links.active {
@@ -222,9 +227,10 @@
       padding: 0.8rem 0;
     }
   
-    .nav-links li:hover{
-        color: #080f17;
+    .nav-links li:hover {
+      color: #080f17;
     }
+  
     .dropdown-menu {
       position: static;
       display: none;
@@ -236,6 +242,7 @@
       display: block;
     }
   }
+  
   @media (max-width: 768px) {
     .slider {
       height: 60vh;
