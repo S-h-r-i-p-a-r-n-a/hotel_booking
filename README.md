@@ -37,8 +37,10 @@ Frontend-only project — dynamic filtering and modal logic are handled through 
 
 🚀 Instant Results: Fast and intuitive UI without page reloads.
 
-🛠 Tech Stack
+🛠 Tech Stack-
+
 HTML5
 
-CSS3 
+CSS3
+
 JavaScript
